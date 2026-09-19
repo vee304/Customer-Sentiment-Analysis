@@ -2,7 +2,7 @@
 
 ## E-Commerce Customer Sentiment Analysis (VADER + LDA)
 
-This repository contains the Python-based natural language processing (NLP) pipeline for analyzing e-commerce customer reviews. The project utilizes a hybrid analytical approach, combining rule-based sentiment scoring (VADER) with unsupervised machine learning (Latent Dirichlet Allocation) to decode the thematic drivers behind customer satisfaction and quantify the limitations of basic sentiment models.
+This repository contains the Python-based natural language processing (NLP) pipeline for analyzing e-commerce customer reviews. The project uses a hybrid approach, combining rule-based sentiment scoring (VADER) with unsupervised machine learning (Latent Dirichlet Allocation) to identify thematic drivers of customer satisfaction and quantify the limitations of basic sentiment models.
 
 
 ## Key Features
@@ -35,3 +35,6 @@ Data Visualization: matplotlib, seaborn
 review_distribution_high_res.png: A baseline distribution of the original dataset's star ratings.
 
 - Console Output: The script prints the top 10 keywords for each LDA theme, a comparative average sentiment table, and the final false-positive/negative percentage rates directly to the terminal.
+
+
+##
